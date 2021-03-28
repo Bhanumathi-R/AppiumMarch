@@ -18,6 +18,7 @@ public class Annotations {
 	
 	AndroidDriver driver;
 	
+	// adding new comment here for git
 	// pre-requisites
 	// we want to exeucte few steps before my test execution begins only one time
 	
