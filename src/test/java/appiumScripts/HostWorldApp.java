@@ -13,7 +13,9 @@ public class HostWorldApp {
 
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		// TODO Auto-generated method stub
+	
 		
+		//Added new chnages from git hub
 		DesiredCapabilities cap = new DesiredCapabilities();
 		
 		cap.setCapability("deviceName", "March20121");
