@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestCycle1" verbose="1" >
+  <test name="IntegrationTests" >
+    <classes>
+       <class name="appiumScripts.Annotations" />
+        <class name="appiumScripts.ApiDemos" />
+         <class name="appiumScripts.KeyEvents" />
+          <class name="appiumScripts.Annotations" />
+    </classes>
+  </test>
+ 
+  <test name="RegressionTest">
+    <classes>
+      <class name="appiumScripts.LongPressGestures"/>
+      <class name="appiumScripts.HostelWorldApp"/>
+    </classes>
+  </test>
+</suite>

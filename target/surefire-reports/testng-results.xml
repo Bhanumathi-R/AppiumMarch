@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testCycle1" duration-ms="53956" started-at="2021-03-28T03:38:02Z" finished-at="2021-03-28T03:38:56Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="27611" started-at="2021-03-28T03:38:02Z" finished-at="2021-03-28T03:38:29Z">
+      <class name="parallelTesting.SwipeTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parallelTesting.SwipeTest@136e4cd]" name="setup" duration-ms="27540" started-at="2021-03-28T03:38:02Z" finished-at="2021-03-28T03:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[443418ec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- parallelTesting.SwipeTest -->
+    </test> <!-- RegressionTest -->
+    <test name="IntegreationTest" duration-ms="53956" started-at="2021-03-28T03:38:02Z" finished-at="2021-03-28T03:38:56Z">
+      <class name="parallelTesting.HostelWorldTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parallelTesting.HostelWorldTest@3f5566]" name="setup" duration-ms="53889" started-at="2021-03-28T03:38:02Z" finished-at="2021-03-28T03:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[March20121]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4724/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- parallelTesting.HostelWorldTest -->
+    </test> <!-- IntegreationTest -->
+  </suite> <!-- testCycle1 -->
+</testng-results>
